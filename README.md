@@ -10,7 +10,7 @@ To verify that the resulting models were properly trained, we used grad-CAM to e
 Python 3.+
 
 ```bash
-$ pip install opencv-python numpy
+$ pip install opencv-python numpy pillow
 $ pip install torch torchvision
 $ pip install grad-cam
 ```
