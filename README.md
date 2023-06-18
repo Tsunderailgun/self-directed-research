@@ -9,12 +9,12 @@ To verify that the resulting models were properly trained, we used grad-CAM to e
 # utility
 getmean.py : get mean and std from welding dataset for normalization
 
-# Training Simple CNN 2-layer model
+# training Simple CNN 2-layer model
 train.py : training code of Simple CNN 2-layer model 
 
 test.py : testing code of Simple CNN 2-layer model 
 
-# Training Simple CNN 2-layer model
+# training Resnet18 model
 train_resnet18.py : training code of Resnet18 model
 
 test_resnet18.py : testing code of Resnet18 model
