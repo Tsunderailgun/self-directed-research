@@ -5,6 +5,16 @@ This project is results of self-directed research.
 
 We built a welding dataset from weld X-ray images. Using this dataset, we trained two models, the simple-CNN model and the resnet18 model, to classify the defective and normal areas in the weld X-ray images. 
 To verify that the resulting models were properly trained, we used grad-CAM to examine the regions where classes are activated.
+## Requirements
+
+Python 3.+
+
+```bash
+$ pip install opencv-python numpy
+$ pip install torch torchvision
+$ pip install grad-cam
+```
+
 
 # utility
 getmean.py : get mean and std from welding dataset for normalization
