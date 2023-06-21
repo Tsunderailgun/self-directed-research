@@ -1,9 +1,9 @@
 # self-directed research (2023 spring semester )
-2023-1 Self-directed research 
+2023-1 Self-directed research
+2023-1 자기주도연구1
 
-This project is results of self-directed research.
 
-We built a welding dataset from weld X-ray images. Using this dataset, we trained two models, the simple-CNN model and the resnet18 model, to classify the defective and normal areas in the weld X-ray images. 
+I built a welding dataset from weld X-ray images. Using this dataset, we trained two models, the simple-CNN model and the resnet18 model, to classify the defective and normal areas in the weld X-ray images. 
 To verify that the resulting models were properly trained, we used grad-CAM to examine the regions where classes are activated.
 ## Requirements
 
